@@ -13,8 +13,34 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/CMS`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      //tranformer remark parses markdown files with remark
+      resolve : 'gatsby-transformer-remark',
+      options: {
+        plugins : [
+          // helper plugin for remark images? convert image srcs to be relative to parent dir
+          'gatsby-remark-relative-images',
+          {
+            //processes images in md to be used --- LOTS of good options for loading images properly and quickly from md
+            resolve : 'gatsby-remark-images',
+            options : {
+              maxWidth: 750,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
