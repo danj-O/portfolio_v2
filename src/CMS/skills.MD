@@ -1,7 +1,7 @@
 ---
-title: about
+title: skills
 ---
-
+#Skills
 * HTML
 * CSS / Sass Pre-processors
 * JavaScript

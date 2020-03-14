@@ -1,0 +1,16 @@
+*,
+.app,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #B1AA81;
+
+}
+
+.about-skills {
+  display: flex;
+}

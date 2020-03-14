@@ -18,22 +18,25 @@ export default function Hero(props) {
     }
   `)
   return (
-    <div className='hero-container'>
-      <div>
-        <Img 
+    <div className='hero-container'
+    data-sal="fade"
+    data-sal-duration="800"
+    data-sal-delay="300"
+    data-sal-easing="ease"
+    >
+      <div className="image-box">
+        {/* <Img 
           fluid={data.file.childImageSharp.fluid}
           key={data.file.childImageSharp.id}
-        />
+        /> */}
       </div>
         
       <div className='hero-text'>
         <h1 className='hero-header'>
-          Hello
-          {/* {props.header} */}
+          Daniel Scott
         </h1>
         <h2 className='hero-subHeader'>
-          Helloooooooo
-          {/* {props.subHeader} */}
+          Developer, tinkerer.
         </h2>
       </div>
     </div>

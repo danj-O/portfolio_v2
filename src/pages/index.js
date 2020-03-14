@@ -1,28 +1,29 @@
 import React from "react"
-import scrollTo from 'gatsby-plugin-smoothscroll';
-// import { Link } from "gatsby"
-// import { useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import Header from "../components/header"
 import Projects from '../components/projects/Projects'
 import About from '../components/About/About'
+import Skills from '../components/skills/Skills'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
+
+import './index.scss'
 
 const IndexPage = () => {
 
   return (
-    <Layout>
+    <div className='app'>
       <SEO title="Daniel Scott's Portfolio" />
+      {/* <Header /> */}
       <Hero />
-      <div id="about">
+      <div className='about-skills'>
         <About />
+        <Skills />
       </div>
-      <div id="projects">
-        <Projects />
-      </div>
-    </Layout>
+      <Projects />
+      <Footer />
+    </div>
 
   )
 }

@@ -14,6 +14,8 @@ const Projects = () => {
             id
             frontmatter {
               title
+              github
+              live
               type
               description
               screenshot {
@@ -49,8 +51,21 @@ const Projects = () => {
   // }, [setFocused])
 
   return (
-    <div className='projects-comp'>
-      <div className='project-btns'>
+    <div id="projects" className='projects-comp'>
+      <div className='projects-header-box'
+      data-sal="slide-up"
+      data-sal-duration="800"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+      >
+        <h1>Projects</h1>
+      </div>
+      <div className='project-btns'
+      data-sal="slide-down"
+      data-sal-duration="800"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+      >
         {
           data.allMarkdownRemark.edges.map((edge) => {
             if (edge.node.frontmatter.type === 'project'){
@@ -69,7 +84,12 @@ const Projects = () => {
           })
         }
       </div>
-      <div className='project-content-container'>
+      <div className='project-content-container'
+      data-sal="fade"
+      data-sal-duration="800"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+      >
         {
           data.allMarkdownRemark.edges.map(edge => {
             if (edge.node.frontmatter.title === `${setFocused}`){
@@ -77,6 +97,10 @@ const Projects = () => {
                 <div className='project-content' key={edge.node.frontmatter.title}>
                   <div className='image-box'>
                     <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
+                  </div>
+                  <div className='project-links'>
+                    <a href={edge.node.frontmatter.github} target='_blank'>Source</a>
+                    <a href={edge.node.frontmatter.live} target='_blank'>Live</a>
                   </div>
                   <div>
                     <div className='projects'
@@ -89,6 +113,7 @@ const Projects = () => {
           })
         }
       </div>
+
     </div>
   )
 }

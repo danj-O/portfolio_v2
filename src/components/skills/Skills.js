@@ -1,12 +1,12 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-import './About.scss'
+import './Skills.scss'
 
 
 export default function About() {
   const data = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: {title: {eq: "about"}}) {
+      markdownRemark(frontmatter: {title: {eq: "skills"}}) {
         id
         frontmatter {
           title
@@ -17,12 +17,12 @@ export default function About() {
   `)
 
   return (
-    <div id= 'about' className='about-box'>
-      <div className='about' 
-        data-sal="slide-right"
-        data-sal-duration="1000"
-        data-sal-delay="300"
-        data-sal-easing="ease"
+    <div id= 'skills' className='skills-box'>
+      <div className='skills' 
+      data-sal="slide-left"
+      data-sal-duration="800"
+      data-sal-delay="600"
+      data-sal-easing="ease"
         dangerouslySetInnerHTML= {{__html: data.markdownRemark.html}} 
       />
     </div>

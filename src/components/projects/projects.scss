@@ -1,19 +1,47 @@
 .projects-comp {
+  background: #7A7F91;
+  margin: 0;
+  padding: 0;
+  .projects-header-box {
+    text-align: center;
+    padding: 40px;
+    h1 {
 
-  .project-btns {
-  
+    }
   }
+  .project-btns {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    // background: #000;
+    button {
+      background: #573F60;
+      height: 80px;
+      width: 150px;
+      border: none;
+      outline: none;
+      font-size: 1em;
+    }
+  }
+
   .project-content-container {
-  
+
     .project-content {
-    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       .image-box {
-        width: 300px;
+        width: 500px;
         img {
           width: 100%;
           height: 100%;
         }
       }
+      .project-links {
+        
+      }
     }
-  }
+  }  
 }
+
