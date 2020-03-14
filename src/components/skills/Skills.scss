@@ -1,18 +1,42 @@
 .skills-box {
   background: #6D5775;
-  color: #A1A4B0;
+  color: rgb(202, 206, 219);
   width: 50%;
   min-width: 280px;
-  .skills {
-    padding: 5% 10%;
+  padding: 2% 5%;
+
+  .skills-header-box {
     h1 {
 
     }
-    ul {
-      list-style: inside;
-      li {
+  }
+  .skills-btns {
+    margin: 10px 0px;
+    .skills-btn {
+      font-size: .8em;
+      margin-right: 8px;
+      padding: 10px 20px;
+      background: #434A62;
+      color: #A1A4B0;
+      border: none;
+      outline: none;
+    }
+  }
+  .skills-content-container {
+    .skills-content {
+      .skills {
+        h1 {
+    
+        }
+        ul {
+          list-style: inside;
+          li {
+    
+          }
+        }
 
       }
+      
     }
   }
 }

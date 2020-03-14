@@ -99,8 +99,8 @@ const Projects = () => {
                     <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
                   </div>
                   <div className='project-links'>
-                    <a href={edge.node.frontmatter.github} target='_blank'>Source</a>
-                    <a href={edge.node.frontmatter.live} target='_blank'>Live</a>
+                    <a href={edge.node.frontmatter.github} target='_blank' rel="noopener noreferrer">Source</a>
+                    <a href={edge.node.frontmatter.live} target='_blank' rel="noopener noreferrer">Live</a>
                   </div>
                   <div>
                     <div className='projects'

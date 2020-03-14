@@ -1,18 +1,12 @@
 ---
-title: skills
+title: Skills
+type: skills
+description:
 ---
-#Skills
 * HTML
 * CSS / Sass Pre-processors
 * JavaScript
 * React
-* Static Site Generators (Gatsby)
+* Gatsby
 * GraphQL
 * APIs
-
-+ Figma
-+ Photoshop/Gimp
-+ Final Cut Pro/Blender
-+ Illustrator/Inkscape
-+ Pure Data
-+ Raspberry Pi
