@@ -14,8 +14,8 @@ const Projects = () => {
             id
             frontmatter {
               title
+              type
               description
-              path
               screenshot {
                 childImageSharp {
                   fixed {
@@ -34,7 +34,7 @@ const Projects = () => {
     }
   `)
   // const [setActive, setActiveState] = useState('')
-  const [setFocused, setFocusedState] = useState('')
+  const [setFocused, setFocusedState] = useState('Kocian Meats')
   // const [setFocusedHtml, setFocusedHtmlState] = useState('')
 
   const handleProjectClick = (e) => {
@@ -53,28 +53,31 @@ const Projects = () => {
       <div className='project-btns'>
         {
           data.allMarkdownRemark.edges.map((edge) => {
-            return (
-              <button 
-                value = {edge.node.frontmatter.title}
-                className={`btn `}
-                key={edge.node.id}
-                onClick={handleProjectClick}
-              >
-                {edge.node.frontmatter.title}
-              </button>
-            )
+            if (edge.node.frontmatter.type === 'project'){
+              return (
+                <button 
+                  value = {edge.node.frontmatter.title}
+                  className={`btn `}
+                  key={edge.node.id}
+                  onClick={handleProjectClick}
+                >
+                  {edge.node.frontmatter.title}
+                </button>
+              )
+            }
+            return null
           })
         }
       </div>
       <div className='project-content-container'>
         {
           data.allMarkdownRemark.edges.map(edge => {
-            // console.log('title', edge.node.frontmatter.title)
-            // console.log('focused', {setFocused})
             if (edge.node.frontmatter.title === `${setFocused}`){
               return (
                 <div className='project-content' key={edge.node.frontmatter.title}>
-                  <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
+                  <div className='image-box'>
+                    <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
+                  </div>
                   <div>
                     <div className='projects'
                     dangerouslySetInnerHTML= {{__html: edge.node.html}} />

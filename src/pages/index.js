@@ -1,45 +1,27 @@
 import React from "react"
+import scrollTo from 'gatsby-plugin-smoothscroll';
 // import { Link } from "gatsby"
 // import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from '../components/projects/Projects'
+import About from '../components/About/About'
+import Hero from '../components/Hero'
 
 const IndexPage = () => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     allMarkdownRemark {
-  //       edges {
-  //         node {
-  //           frontmatter {
-  //             title
-  //             description
-  //             path
-  //             screenshot {
-  //               childImageSharp {
-  //                 fixed {
-  //                   ...GatsbyImageSharpFixed
-  //                 }
-  //                 fluid {
-  //                   ...GatsbyImageSharpFluid
-  //                 }
-  //               }
-  //             }
-  //           }
-  //           html
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
 
   return (
     <Layout>
       <SEO title="Daniel Scott's Portfolio" />
-      <Projects />
-      {/* <Link to="/page-2/">Go to page 2</Link> */}
+      <Hero />
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
     </Layout>
 
   )

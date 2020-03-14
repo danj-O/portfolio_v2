@@ -2,10 +2,17 @@
 
   .project-btns {
   
-    .project-content-container {
+  }
+  .project-content-container {
+  
+    .project-content {
     
-      .project-content {
-      
+      .image-box {
+        width: 300px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
   }

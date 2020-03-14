@@ -1,0 +1,18 @@
+---
+title: about
+---
+
+* HTML
+* CSS / Sass Pre-processors
+* JavaScript
+* React
+* Static Site Generators (Gatsby)
+* GraphQL
+* APIs
+
++ Figma
++ Photoshop/Gimp
++ Final Cut Pro/Blender video editing
++ Illustrator/Inkscape
++ Pure Data
++ Raspberry Pi
