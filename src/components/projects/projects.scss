@@ -1,5 +1,6 @@
 .projects-comp {
-  background: #7A7F91;
+  background: #55756B;
+  // background: #797F90;
   margin: 0;
   padding: 0;
   .projects-header-box {
@@ -11,16 +12,22 @@
   }
   .project-btns {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 50px;
     // background: #000;
     button {
-      background: #573F60;
-      height: 80px;
+      background: rgb(145, 132, 103);
+      // background: #434A62;
+      color: rgb(255, 255, 255);
+      height: 60px;
       width: 150px;
+      margin: 0px 10px;
       border: none;
       outline: none;
       font-size: 1em;
+    }
+    button:hover {
+      background: #434A62;
     }
   }
 

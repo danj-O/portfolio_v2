@@ -6,7 +6,8 @@
   height: auto;
   z-index: -1;
   height: 100vh;
-  background: #b1aa81;
+  background: #55756B;
+  // background: #b1aa81;
   .image-box {
     // padding: 0;
     // margin: 0;
@@ -17,21 +18,36 @@
 
   }
   .hero-text {
-    text-align: right;
+    // text-align: right;
     position: absolute;
-    top: 170px;
+    top: 50%;
     z-index: 0;
-    right: 0;
+    left: 50%;
     padding-right: 5%;
 
     .hero-header{
       color: #292F47;
       font-weight: 800;
+      font-size: 3em;
+      line-height: .8;
     }
     .hero-subHeader {
       color: #434A62;
       font-weight: normal;
-      font-size: 1em;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    .links {
+      display: flex;
+      // justify-content: space-around;
+      a {
+        font-size: 1.3em;
+        color: #292F47;
+        margin-right: 10px;
+      }
+      a:hover {
+        color: #434A62;
+      }
     }
   }
 }

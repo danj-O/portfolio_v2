@@ -13,4 +13,10 @@ html {
 
 .about-skills {
   display: flex;
+  // flex-wrap: wrap;
+}
+@media (max-width:900px){
+  .about-skills {
+    flex-direction: column;
+  }
 }
