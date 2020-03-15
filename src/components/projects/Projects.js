@@ -102,7 +102,7 @@ const Projects = () => {
                     <a href={edge.node.frontmatter.github} target='_blank' rel="noopener noreferrer">Source</a>
                     <a href={edge.node.frontmatter.live} target='_blank' rel="noopener noreferrer">Live</a>
                   </div>
-                  <div>
+                  <div className="project-html-box">
                     <div className='projects'
                     dangerouslySetInnerHTML= {{__html: edge.node.html}} />
                   </div>
