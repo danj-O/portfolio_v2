@@ -18,10 +18,18 @@ export default function About() {
 
   return (
     <div id= 'about' className='about-box'>
+      <div className='about-header-box'
+      data-sal="slide-right"
+      data-sal-duration="800"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+      >
+        <h1>About me</h1>
+      </div>
       <div className='about' 
         data-sal="slide-right"
         data-sal-duration="1000"
-        data-sal-delay="300"
+        data-sal-delay="500"
         data-sal-easing="ease"
         dangerouslySetInnerHTML= {{__html: data.markdownRemark.html}} 
       />

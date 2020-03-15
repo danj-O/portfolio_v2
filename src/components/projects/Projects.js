@@ -55,7 +55,7 @@ const Projects = () => {
       <div className='projects-header-box'
       data-sal="slide-up"
       data-sal-duration="800"
-      data-sal-delay="300"
+      data-sal-delay="600"
       data-sal-easing="ease"
       >
         <h1>Projects</h1>
@@ -63,7 +63,7 @@ const Projects = () => {
       <div className='project-btns'
       data-sal="slide-down"
       data-sal-duration="800"
-      data-sal-delay="300"
+      data-sal-delay="800"
       data-sal-easing="ease"
       >
         {
