@@ -55,7 +55,7 @@ export default function Hero(props) {
           </a>
         </div>
         <div>
-          <a href={`../../static/2020_02-Resume.pdf`} download='Daniel_Scott_Resume.pdf'>Resume PDF</a>
+          <a href={`/2020_02-Resume.pdf`} download='Daniel_Scott_Resume.pdf'>Resume PDF</a>
           {/* <a href={`.pdf`} download>Download the file from the static folder</a> */}
         </div>
       </div>
