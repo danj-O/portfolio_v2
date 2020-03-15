@@ -52,3 +52,14 @@
   }  
 }
 
+@media (max-width:900px){
+  .projects-comp {
+    .project-content-container {
+      .project-content {
+        .image-box {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

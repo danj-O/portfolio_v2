@@ -32,12 +32,18 @@
         ul {
           list-style: inside;
           li {
-    
+            line-height: 1.4;
           }
         }
 
       }
       
     }
+  }
+}
+
+@media (max-width:900px){
+  .skills-box {
+    width: 100%;
   }
 }
