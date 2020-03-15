@@ -72,7 +72,7 @@ const Projects = () => {
               return (
                 <button 
                   value = {edge.node.frontmatter.title}
-                  className={`btn `}
+                  className={`project-btn`}
                   key={edge.node.id}
                   onClick={handleProjectClick}
                 >

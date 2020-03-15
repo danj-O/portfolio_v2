@@ -1,8 +1,8 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
-import Img from 'gatsby-image'
+// import { useStaticQuery, graphql } from "gatsby"
+// import Img from 'gatsby-image'
 import './Hero.scss'
-
+// import Resume from '../images/2020_02-Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -53,9 +53,10 @@ export default function Hero(props) {
           <a href="">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          {/* <a href="">
-            <img src={Codewars} alt=""/>
-          </a> */}
+        </div>
+        <div>
+          <a href={`../../static/2020_02-Resume.pdf`} download='Daniel_Scott_Resume.pdf'>Resume PDF</a>
+          {/* <a href={`.pdf`} download>Download the file from the static folder</a> */}
         </div>
       </div>
     </div>
