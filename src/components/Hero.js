@@ -4,7 +4,7 @@ import React from 'react'
 import './Hero.scss'
 // import Resume from '../images/2020_02-Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 // import Codewars from '../images/codewars.svg'
 
@@ -44,18 +44,21 @@ export default function Hero(props) {
           Developer, tinkerer.
         </h2>
         <div className='links'>
-          <a href="">
+          <a href={`/2020_02-Resume.pdf`}>
+            <FontAwesomeIcon icon={faFilePdf} />
+          </a>
+          <a href="mailto: danjowanjo@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="">
+          <a href="https://github.com/danj-O" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/dan-scott-87938768/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
         <div>
-          <a href={`/2020_02-Resume.pdf`} download='Daniel_Scott_Resume.pdf'>Resume PDF</a>
+          {/* <a href={`/2020_02-Resume.pdf`} download='Daniel_Scott_Resume.pdf'>Resume PDF</a> */}
           {/* <a href={`.pdf`} download>Download the file from the static folder</a> */}
         </div>
       </div>
