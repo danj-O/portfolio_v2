@@ -95,12 +95,14 @@ const Projects = () => {
             if (edge.node.frontmatter.title === `${setFocused}`){
               return (
                 <div className='project-content' key={edge.node.frontmatter.title}>
-                  <div className='image-box'>
-                    <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
-                  </div>
-                  <div className='project-links'>
-                    <a href={edge.node.frontmatter.github} target='_blank' rel="noopener noreferrer">Source</a>
-                    <a href={edge.node.frontmatter.live} target='_blank' rel="noopener noreferrer">Live</a>
+                  <div className='img-links'>
+                    <div className='image-box'>
+                      <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
+                    </div>
+                    <div className='project-links'>
+                      <a href={edge.node.frontmatter.github} target='_blank' rel="noopener noreferrer">Source</a>
+                      <a href={edge.node.frontmatter.live} target='_blank' rel="noopener noreferrer">Live</a>
+                    </div>
                   </div>
                   <div className="project-html-box">
                     <div className='projects'
