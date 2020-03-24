@@ -129,11 +129,6 @@
             font-size: 1.2em;
             grid-column: span 2;
           }
-          h2 {
-            font-size: 1em;
-            grid-column: span 2;
-
-          }
           p {
             grid-column: span 2;
             
@@ -144,6 +139,9 @@
             
             .tech-head,
             .feature-head {
+              font-size: 1em;
+              grid-column: span 2;
+  
               // grid-column: span 1;
             }
             .tech {
