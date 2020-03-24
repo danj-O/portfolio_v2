@@ -41,7 +41,7 @@ export default function Hero(props) {
           Daniel Scott
         </h1>
         <h2 className='hero-subHeader'>
-          Developer, tinkerer.
+          Web Developer
         </h2>
         <div className='links'>
           <a href={`/2020_02-Resume.pdf`}>
