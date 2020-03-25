@@ -22,7 +22,7 @@
     position: absolute;
     top: 50%;
     z-index: 0;
-    left: 50%;
+    left: 25%;
     padding-right: 5%;
 
     .hero-header{
@@ -34,16 +34,16 @@
     .hero-subHeader {
       color: #434A62;
       font-weight: normal;
-      font-size: 1.2em;
+      font-size: 1.5em;
       line-height: 1.5;
     }
     .links {
       display: flex;
       // justify-content: space-around;
       a {
-        font-size: 1.3em;
+        font-size: 1.5em;
         color: #292F47;
-        margin-right: 10px;
+        margin-right: 25px;
       }
       a:hover {
         color: #434A62;
