@@ -7,6 +7,7 @@ import About from '../components/About/About'
 import Skills from '../components/skills/Skills'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import Form from '../components/Form/Form'
 
 import './index.scss'
 
@@ -22,6 +23,7 @@ const IndexPage = () => {
         <Skills />
       </div>
       <Projects />
+      <Form />
       <Footer />
     </div>
 
