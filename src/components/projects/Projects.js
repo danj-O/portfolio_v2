@@ -1,4 +1,5 @@
 import React, { useState, }from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 // import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -100,8 +101,8 @@ const Projects = () => {
                       <Img fluid={edge.node.frontmatter.screenshot.childImageSharp.fluid} />
                     </div>
                     <div className='project-links'>
-                      <a href={edge.node.frontmatter.github} target='_blank' rel="noopener noreferrer">Source</a>
-                      <a href={edge.node.frontmatter.live} target='_blank' rel="noopener noreferrer">Live</a>
+                      <OutboundLink href={edge.node.frontmatter.github} target='_blank' rel="noopener noreferrer">Source</OutboundLink>
+                      <OutboundLink href={edge.node.frontmatter.live} target='_blank' rel="noopener noreferrer">Live</OutboundLink>
                     </div>
                   </div>
                   <div className="project-html-box">
