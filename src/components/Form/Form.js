@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Form() {
   return (
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
