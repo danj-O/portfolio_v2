@@ -3,7 +3,7 @@ import './Form.scss'
 
 export default function Form() {
   return (
-    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+    <form name="contact" method="POST" data-netlify="true">
       {/* <p class="hidden">
         <label>Don’t fill this out if you're human: <input name="bot-field" type='hidden' id='bot' /></label>
       </p> */}
@@ -23,8 +23,8 @@ export default function Form() {
         <label>Message: <textarea name="message"></textarea></label>
       </p>
       
-      <div data-netlify-recaptcha="true">
-      </div>
+      {/* <div data-netlify-recaptcha="true">
+      </div> */}
       <p>
         <button type="submit">Send</button>
       </p>
