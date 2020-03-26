@@ -1,6 +1,24 @@
 footer {
   height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 15px 15px;
+      font-size: 1.5em;
+      color: #292F47;
+      // margin-right: 25px;
+    }
+    a:hover {
+      color: #434A62;
+    }
+  }
+  .copywrite {
+    color: #292F47;
+  }
 }

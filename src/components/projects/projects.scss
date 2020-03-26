@@ -131,31 +131,37 @@
             grid-column: span 2;
             padding-bottom: 15px;
             h1 {
+            text-transform: uppercase;
               font-size: 1.2em;
               line-height: .9;
+              font-size: 1.1em;
             }
             p {
+              font-size: .9em;
             }
           }
           .list-section {
             grid-column: span 1;
             .tech-head,
             .feature-head {
+              text-transform: uppercase;
               line-height: .9;
-              font-size: 1em;
+              font-size: .9em;
             }
             .tech {
               li {
-                list-style: inside;
+                list-style: none;
+                // list-style: inside;
                 line-height: 1.3;
                 font-size: .9em;
               }
             }
             .features {
               li {
-              list-style: inside;
-              line-height: 1.3;
-              font-size: .9em;
+                list-style: none;
+                // list-style: inside;
+                line-height: 1.3;
+                font-size: .9em;
               }
             }
           }
@@ -163,8 +169,9 @@
             grid-column: span 2;
             padding-top: 15px;
             h2 {
+              text-transform: uppercase;
               line-height: .9;
-              font-size: 1em;
+              font-size: .9em;
             }
             p {
               line-height: 1.4;
