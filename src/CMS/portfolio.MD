@@ -2,8 +2,8 @@
 title: Portfolio Website
 type: project
 description: Portfolio Website made with Gatsby and MD files
-github: https://github.com/danj-O/portfolio
-live: https://daniel-scott.netlify.com/
+github: https://github.com/danj-O/portfolio_v2
+live: https://danjomedia.com/
 screenshot: portfolioSS.png
 ---
 <div class="project-header">

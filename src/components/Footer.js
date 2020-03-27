@@ -10,10 +10,10 @@ export default function Footer() {
   return (
     <footer>
       <div className='links'>
-        <OutboundLink href={`/2020_02-Resume.pdf`}>
+        <OutboundLink href={`/Daniel-Scott_2020_02-Resume.pdf`}>
           <FontAwesomeIcon icon={faFilePdf} />
         </OutboundLink>
-        <OutboundLink href="mailto: danjowanjo@gmail.com">
+        <OutboundLink href="mailto: dan@danjomedia.com">
           <FontAwesomeIcon icon={faEnvelope} />
         </OutboundLink>
         <OutboundLink href="https://github.com/danj-O" target="_blank" rel="noopener noreferrer">
