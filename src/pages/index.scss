@@ -2,15 +2,18 @@
 .app,
 html,
 body {
-  overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 html {
+  overflow-x: hidden;
   background: rgb(145, 132, 103);
 
 
+}
+body {
+  overflow-x: hidden;
 }
 
 .about-skills {
