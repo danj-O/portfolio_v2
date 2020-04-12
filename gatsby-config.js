@@ -36,6 +36,16 @@ module.exports = {
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-scroll-reveal`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          // `limelight`,
+          `Nunito\:300,400,600,700,800,900` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
