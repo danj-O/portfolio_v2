@@ -26,13 +26,15 @@
     padding-right: 5%;
 
     .hero-header{
-      color: #292F47;
+      color: white;
+      // color: #292F47;
       font-weight: 800;
       font-size: 3em;
       line-height: .8;
     }
     .hero-subHeader {
-      color: #434A62;
+      color: rgb(218, 218, 218);
+      // color: #434A62;
       font-weight: normal;
       font-size: 1.5em;
       line-height: 1.5;
@@ -42,11 +44,11 @@
       // justify-content: space-around;
       a {
         font-size: 1.5em;
-        color: #292F47;
+        color: rgb(255, 255, 255);
         margin-right: 25px;
       }
       a:hover {
-        color: #434A62;
+        color: rgb(201, 201, 201);
       }
     }
   }

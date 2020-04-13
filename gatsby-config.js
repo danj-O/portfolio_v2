@@ -39,8 +39,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          // `limelight`,
-          `Nunito\:300,400,600,700,800,900` // you can also specify font weights and styles
+          `Nunito\:300,400,600,700,800,900`
         ],
         display: 'swap'
       }
