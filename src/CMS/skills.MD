@@ -9,4 +9,4 @@ description:
 * React
 * Gatsby
 * GraphQL
-* APIs
+* REST 
