@@ -24,11 +24,11 @@ screenshot: wallbrawl-SS.png
 <div class="list-section">
   <h2 class="feature-head">Notable Features</h2>
   <ul class='features'>
-    <li>3D top-down</li>
-    <li>local multiplayer, two people play on a single IPad</li>
-    <li>particle effects</li>
-    <li>fast-paced strategic gameplay</li>
-    <li>simple controls</li>
+    <li>3D top-down graphics</li>
+    <li>Multiplayer, two people play on a single IPad</li>
+    <li>Particle effects</li>
+    <li>Fast-paced strategic gameplay</li>
+    <li>Simple controls</li>
   </ul>
 </div>
 
