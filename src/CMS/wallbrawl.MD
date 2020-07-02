@@ -35,14 +35,14 @@ screenshot: wallbrawl-SS.png
 <div class="par-section">
   <h2>Project Difficulties</h2>
   <p>
-    As this was my first game project, choosing a game engine that met my needs was an important task.  It was also very important to have a well thought out picture of what I was trying to build: A game that two people can play on one device that is a bit like capture the flag.
+    As this was my first game project, choosing a game engine that met my needs was an important task.  It was also very important to have a well thought out picture of what I was trying to build: A game that two people can play on one device resembles capture the flag.
   </p> 
 </div>
 
 <div class="par-section">
   <h2>Solution</h2>
   <p>
-    As for the engine, I chose Unity3D.  While many game engines use proprietary programming languages, Unity uses C# so this was a great opportunity to experiment in a new and useful language.  Designing the game mechanics required learning a bit of 3D math and physics for player movement and controls.  This project proved to be a much easier task than expected because of my experience programming with JavaScript.
+    As for the engine, I chose Unity3D.  While many game engines use proprietary programming languages, Unity uses C# so this was a great opportunity to experiment in a new and useful language.  Designing the game mechanics required learning a bit of 3D math and physics for player movement and controls, which was very exciting.  This project proved to be a much easier task than expected because of my experience programming with JavaScript.
 
   </p>
 </div>
