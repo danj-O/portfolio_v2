@@ -19,7 +19,7 @@ export default function Footer() {
         <OutboundLink href="https://github.com/danj-O" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </OutboundLink>
-        <OutboundLink href="https://www.linkedin.com/in/dan-scott-87938768/" target="_blank" rel="noopener noreferrer">
+        <OutboundLink href="https://www.linkedin.com/in/danjo-scott/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </OutboundLink>
       </div>

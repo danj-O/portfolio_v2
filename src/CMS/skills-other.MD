@@ -5,9 +5,9 @@ description:
 ---
 
 + Unity Game Engine(C#)
-+ Figma
++ Figma/Illustrator/Inkscape
 + Photoshop/Gimp
 + Final Cut Pro/Blender
-+ Illustrator/Inkscape
 + Pure Data
-+ Raspberry Pi 
++ Raspberry Pi/Arduino
++ Music/Music Production/Music Management
